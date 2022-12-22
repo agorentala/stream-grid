@@ -10,7 +10,7 @@ This content idea has made for some incredible streams, and along the way I got 
 I could make a website that would allow the process of updating the grid easier, keeping the gameplay/stream going even
 if a new image got added.
 
-### Example Grid (without images)
+### Example Grid (without images, actual grid mesh would be invisible on stream) 
 ![Mario 64 Grid Example Picture](public/mario64_grid.png)
 
 ## Features
