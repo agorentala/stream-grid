@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# Stream Grid
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is a "Stream Grid"?
 
-## Available Scripts
+A Twitch streamer whom I watch a lot of, recently ran streams where they would play a game and attempt to accomplish a
+specific end goal/challenge (i.e., Mario 64 Speedrun, Truck Simulator Delivery), but featuring a unique twist: viewers
+could donate to place images of their choice occupying portions of a larger grid,
+blocking their vision.
+This content idea has made for some incredible streams, and along the way I got inspired to make this project and see if
+I could make a website that would allow the process of updating the grid easier, keeping the gameplay/stream going even
+if a new image got added.
 
-In the project directory, you can run:
+## Features
+- Live view of current state of grid (to be used in OBS Browser Source)
+  - Archive of past grids after each wipe
+- Interface/application to upload new images to the grid
+  - Ability to perform basic resizing, etc.
+  - Handling for other actions such as wiping the grid, taking an existing piece of the grid, etc.
+- Processing queue to accept/decline images (prevent images that may be against TOS)
+- Interaction with the Twitch API to see if a donation was made for the grid
+  - Verify that donation amount corresponds to action, number of grid spaces, etc.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Learning Goals
+- Re-familiarize myself with JavaScript and web development in general
+- Learn some basic TypeScript 
+- Learn the fundamentals to working with the React framework
+- Get used to working with APIs
